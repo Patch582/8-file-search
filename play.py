@@ -1,5 +1,6 @@
 
 # factorial play
+# TODO: second todo re comments
 
 def factorial(n):
     if n == 1:
