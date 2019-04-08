@@ -96,6 +96,7 @@ def search_item(filename, search_text):
     with open(filename, 'r', encoding='utf8') as fin:
 
         line_num = 0
+        # TODO: tidy up comments
         for line in fin:
             line_num = line_num + 1
             if line.find(search_text) >= 0:
